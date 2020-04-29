@@ -1,5 +1,4 @@
 # Go-Upload-Files-FTP
-//FTP ship data
 		conn, err := ftp.Connect("youIPaddress", 21)
 		if err != nil {
 			fmt.Println("no connection, error:", err)
