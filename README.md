@@ -1,4 +1,5 @@
 # Go-Upload-Files-FTP
+Simple FTP upload using Golang.
 		conn, err := ftp.Connect("youIPaddress", 21)
 		if err != nil {
 			fmt.Println("no connection, error:", err)
